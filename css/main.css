@@ -2,7 +2,7 @@
   --fondo-body: #fff;
   --fondo-nav: #ECF0E6;
   --color-segundario: #a80015;
-  --color-fuente-principal: #64686d;
+  --color-fuente-principal: #2a4452;
   --color-btn-nav: #fff;
   --color-btn-nav-hover: transparent;
   --color-icon-bar: #64686d;
@@ -34,7 +34,7 @@ h5,
 h6 {
   font-weight: 600;
   font-family: var(--font-family,'Roboto', sans-serif);
-  color: #272727;
+/*  color: #272727;*/
 }
 p {
     font-size: 14px;
@@ -90,7 +90,7 @@ hr {
   line-height: 28px;
   text-align: center;
   font-weight: 300;
-  color: #8d8d8d;
+/*  color: #8d8d8d;*/
 }
 
 
@@ -185,7 +185,9 @@ ul.nostyle i {
   background-color:var(--fondo-nav,#ECF0E6);  ;
 }
 .navbar-inverse .navbar-nav>li>a {
-    color: #616161;
+    color: var(--color-fuente-principal,#64686d);
+    font-weight: 600;
+/*    color: #616161;*/
 }
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
     color: var(--color-segundario,#f90020);
@@ -537,9 +539,9 @@ ul.nostyle i {
   -webkit-transition: all 300ms;
   transition: all 300ms;
 }
-#portfolio {
+/*#portfolio {
   color: #fff;
-}
+}*/
 #portfolio a {
   color: black;
 }
@@ -631,7 +633,7 @@ ul.nostyle i {
 }
 #socios p {
   font-style: italic;
-  font-size: 22px;line-height: 30px;
+  font-size: 17px;line-height: 30px;
 }
 #socios .img-thumbnail {
   background: transparent;
@@ -810,3 +812,7 @@ ul.nostyle i {
 #footer p{
   margin: 15px 0 0 0;
 }
+
+/*#main-slider .carousel-content{
+  margin: 250px 150px;
+}*/
