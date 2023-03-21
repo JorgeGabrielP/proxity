@@ -714,7 +714,7 @@ ul.nostyle i {
 ************************/
 #footer {
   padding-top: 30px;
-  padding-bottom: 30px;
+/*  padding-bottom: 30px;*/
   color: #fff;
   background: #2e2e2e;
 }
@@ -774,4 +774,39 @@ ul.nostyle i {
 }
 .block-qs .column-title{
   text-align: center;
+}
+
+/*************************
+*******Service******
+**************************/
+
+#services .features-item .bloque-img-servicio img
+{
+  width: 100%;
+}
+
+#services .features-item .bloque-contenido-servicio
+{
+  padding: 15px;
+}
+
+
+#services p{
+  text-align: justify;
+}
+
+/*************************
+*******Portafolio******
+**************************/
+
+#portfolio p{
+  text-align: justify;
+}
+
+/*************************
+*******Footer******
+**************************/
+
+#footer p{
+  margin: 15px 0 0 0;
 }
